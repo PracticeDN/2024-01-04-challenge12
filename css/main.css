@@ -1,0 +1,253 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header .inner {
+  width: 90%;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.header .inner .main-header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .inner .main-header .main-header-detail {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+.header .inner .main-header .main-header-detail .input-container {
+  position: relative;
+}
+.header .inner .main-header .main-header-detail .input-container .search-input {
+  width: 30rem;
+  height: 4rem;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 3rem;
+  padding: 0 2rem;
+}
+.header .inner .main-header .main-header-detail .input-container .search-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header .inner .main-header .main-header-detail .icon-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header .inner .nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header .inner .nav-container a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+}
+.header .inner .nav-container .main-nav {
+  display: flex;
+  gap: 2rem;
+}
+.header .inner .nav-container .main-nav a:nth-child(10) {
+  padding-right: 2rem;
+  border-right: 1px solid black;
+}
+.header .inner .nav-container .sub-nav {
+  display: flex;
+  gap: 2rem;
+}
+.header .inner .nav-container .sub-nav a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+}
+
+.main .image-container {
+  width: 100%;
+  height: 40vw;
+  background-image: url("../images/e53eb552-b532-4b8d-ae75-9df4c495e8cd.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.main .image-container .image-text-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.main .image-container .image-text-container .image-title {
+  font-weight: 600;
+  font-size: 4.2rem;
+}
+.main .image-container .image-text-container .image-description {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.main .image-container .image-text-container .button {
+  width: 12rem;
+  height: 3.75rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.main .image-container .image-text-container .button:hover {
+  background-color: black;
+  color: white;
+}
+.main .content-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.main .content-container .content-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 3rem 0;
+  font-weight: 600;
+}
+.main .content-container .contents {
+  display: flex;
+  gap: 2rem;
+}
+.main .content-container .contents .content {
+  width: 25%;
+  height: 20rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #f7f7f7;
+}
+.main .content-container .contents .content .main-content-container {
+  height: 80%;
+  border-bottom: 1px solid #c2c2c2;
+  display: flex;
+}
+.main .content-container .contents .content .main-content-container .content-image-container {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main .content-container .contents .content .main-content-container .content-detail {
+  width: 100%;
+  margin-top: 1rem;
+}
+.main .content-container .contents .content .main-content-container .content-detail .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.main .content-container .contents .content .main-content-container .content-detail .device-name {
+  margin-top: 2rem;
+  color: #989898;
+  font-size: 1.6rem;
+}
+.main .content-container .contents .content .main-content-container .content-detail .price-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
+.main .content-container .contents .content .main-content-container .content-detail .price-container .price-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main .content-container .contents .content .main-content-container .content-detail .price-container .price-container-wrapper .price {
+  color: #2189ff;
+}
+.main .content-container .contents .content .main-content-container .content-detail .price-container .price-container-wrapper .point-text {
+  color: #707070;
+}
+.main .content-container .contents .content .main-content-container .content-detail .price-container .price-container-wrapper .point {
+  font-weight: 600;
+  color: #707070;
+}
+.main .content-container .contents .content .comparison {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+}
+.main .content-container .contents .content .comparison .plus-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main .content-container .contents .content .comparison .plus-container .plus-text {
+  font-size: 1.6rem;
+}
+.main .content-container .contents .content .comparison .star-container {
+  display: flex;
+  align-items: center;
+}
+.main .content-container .contents .content .comparison .star-container .plus-text {
+  font-size: 1.6rem;
+}
+
+.footer {
+  border-top: 1px solid #c2c2c2;
+}
+.footer .inner {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+.footer .inner .korean-link {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  padding-right: 1rem;
+  border-right: 2px solid #c2c2c2;
+}
+.footer .inner .other-footer-links {
+  margin-left: 6rem;
+  display: flex;
+  gap: 8rem;
+}
+.footer .inner .other-footer-links a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+}
+.footer .inner .select {
+  margin-left: 4rem;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+.footer .inner .copyright {
+  right: 0;
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #707070;
+}
+
+/*# sourceMappingURL=main.css.map */
